@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chick-Fil-A</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+
+    <!--------ticker ----------->
+    <div class="announcement">
+      <span class="close">&#x2715;</span>
+      <div class="text">
+        <span class="is-desktop">
+          <strong>PROMOTION</strong>. Promotion text short description . Use Coupon on Chick-Fil-A
+        </span>
+        <span class="is-mobile">Use Coupon Code for <strong>50% OFF</strong></span>
+      </div>
+      <div class="coupon">
+        <input type="text" value="CODEPEN50" id="couponCode" readonly />
+        <div class="tooltip">
+          <button>
+            <span class="tooltiptext" id="myTooltip">Copy to clipboard</span>
+            Copy
+          </button>
+        </div>
+      </div>
+    </div>
+        <!--------ticker  End----------->
+
+    <!-- Menu -->
+    <div class="menu">
+      <nav>
+        <input type="checkbox" id="check" />
+        <label for="check" class="checkbtn">
+          <ion-icon name="grid-outline"></ion-icon>
+        </label>
+
+        <label class="logo">
+          <img src="./images/chick-fil-a.png" alt="" />
+        </label>
+
+        <ul>
+          <li><a href="#hero-section" class="active">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#faq">FAQ</a></li>
+          <li><a href="#app">Download App</a></li>
+        </ul>
+      </nav>
+    </div>
+    <!-- End Menu -->
+
+    <!-- Hero Section -->
+    <div class="section flex" id="hero-section">
+      <div class="text">
+        <h1 class="primary pinkcls">
+          Smoky sizzle, <br />
+          in every<span>Bite</span>
+        </h1>
+
+        <p class="tertiary">
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsa,
+          provident dolorum.
+        </p>
+
+        <a href="#menu" class="btn">Order Pickup</a>
+        <a href="#menu" class="btn">Order Delivery</a>
+
+      </div>
+      <div class="visual">
+        <img src="./images/DeluxeSandwich1085.png" alt="" />
+      </div>
+    </div>
+    <!-- End Hero Section -->
+
+    <!-- How It Works -->
+    <div class="section" id="how-it-works">
+      <h2 class="secondary">How It Works</h2>
+
+      <div class="container flex">
+        <div class="box">
+          <h3>Easy Order</h3>
+          <ion-icon name="timer-outline"></ion-icon>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam,
+            non?
+          </p>
+        </div>
+
+        <div class="box active">
+          <h3>Best Quality</h3>
+          <ion-icon name="trophy-outline"></ion-icon>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam,
+            non?
+          </p>
+        </div>
+
+        <div class="box">
+          <h3>Fast Delivery</h3>
+          <ion-icon name="checkmark-done-circle-outline"></ion-icon>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam,
+            non?
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- End How It Works -->
+
+    <!-- About -->
+    <div class="section" id="about">
+      <div class="container flex">
+        <div class="visual">
+          <img src="./images/Jul19_CFASandwich.png" alt="" />
+        </div>
+        <div class="text">
+          <div class="secondary">About Our Restaurant</div>
+          <h2 class="primary">150+</h2>
+
+          <h3 class="tertiary">Our Delicious Burgur</h3>
+
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia
+            itaque saepe id hic rem doloribus quas esse voluptatibus eius sequi,
+            possimus maxime dolores tempore facilis fugit porro mollitia, est
+            consequuntur.
+          </p>
+
+          <a href="#menu" class="btn">Explore Menu</a>
+        </div>
+      </div>
+    </div>
+    <!-- End About -->
+
+   
+
+    <!-- FAQ -->
+    <div class="section" id="faq">
+      <h2 class="secondary">Frequently Asked Questions</h2>
+
+      <div class="faq">
+        <details>
+          <summary>I got wrong Burgur what shoud I do?</summary>
+          <div class="content">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Asperiores amet sunt at?
+            </p>
+          </div>
+        </details>
+
+        <details>
+          <summary>I got wrong Burgur what shoud I do?</summary>
+          <div class="content">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Asperiores amet sunt at?
+            </p>
+          </div>
+        </details>
+
+        <details>
+          <summary>I got wrong Burgur what shoud I do?</summary>
+          <div class="content">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Asperiores amet sunt at?
+            </p>
+          </div>
+        </details>
+
+        <details>
+          <summary>I got wrong Burgur what shoud I do?</summary>
+          <div class="content">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Asperiores amet sunt at?
+            </p>
+          </div>
+        </details>
+      </div>
+    </div>
+    <!-- End FAQ -->
+
+    <!-- App -->
+    <div class="section" id="app">
+      <div class="container flex">
+        <div class="visual">
+          <img src="./images/app1.png" alt="" />
+        </div>
+
+        <div class="text">
+          <h2 class="secondary">Download The Chick-Fil-A App</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae
+            laudantium velit iure illo facilis at delectus sint, doloribus
+            magnam officiis rerum nobis, perspiciatis maxime repellat qui
+            consequuntur? Aspernatur, architecto voluptatum!
+          </p>
+
+          <div class="download flex">
+            <div class="app-store">
+              <ion-icon name="logo-google-playstore"></ion-icon>
+              <p>
+                GET IT ON <br />
+                <span>Google Play</span>
+              </p>
+            </div>
+
+            <div class="app-store">
+              <ion-icon name="logo-apple"></ion-icon>
+              <p>
+                Donload on the <br />
+                <span>App Store</span>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End App -->
+
+    <!-- Footer -->
+    <div class="footer">
+      <div class="container flex">
+        <div class="footer-about">
+          <h2>About</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
+            aspernatur sit deleniti enim voluptas voluptatum incidunt rerum,
+            exercitationem voluptate nemo quo impedit ad perspiciatis tempore
+            nulla dolore fugit, fuga eos.
+          </p>
+        </div>
+
+        <div class="footer-category">
+          <h2>Our Menu</h2>
+
+          <ul>
+            <li>Biryani</li>
+            <li>Chicken</li>
+            <li>Pizza</li>
+            <li>Burger</li>
+            <li>Pasta</li>
+          </ul>
+        </div>
+
+        <div class="quick-links">
+          <h2>Quick Links</h2>
+
+          <ul>
+            <li>About Us</li>
+            <li>Contact Us</li>
+            <li>Menu</li>
+            <li>Order</li>
+            <li>Services</li>
+          </ul>
+        </div>
+
+        <div class="get-in-touch">
+          <h2>Get in touch</h2>
+          <ul>
+            <li>Account</li>
+            <li>Support Center</li>
+            <li>Feedback</li>
+            <li>Suggession</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="copyright">
+        <p>Copyright &copy; 2023. All Rights Reserved.</p>
+      </div>
+    </div>
+    
+   
+    <!-- End Footer -->
+
+    <!-- Ion Icons Js -->
+    <script
+      type="module"
+      src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.js"
+    ></script>
+  </body>
+</html>
